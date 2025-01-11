@@ -18,7 +18,7 @@ for (let row = 0; row < 4; row++) { // Loop for rows (4 rows)
   
     for (let col = 0; col < ballsInRow; col++) { // Loop for columns
       const x = startX + col * (2 * radius); // Calculate the x-coordinate for each ball
-      const y = 50 + row * (2 * radius); // Calculate the y-coordinate for each row
+      const y = 50  // Calculate the y-coordinate for each row
   
       // Draw the circle
       ctx.beginPath();
